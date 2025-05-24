@@ -1,0 +1,15 @@
+Package: hack25usefuldata
+Title: Useful Datasets for Hackathon May 2025
+Version: 0.0.1
+Authors@R: 
+    person("Chris", "Mason-Thom", , "chrismasonthom@gmail.com", role = c("aut", "cre"))
+Description: Provides a set of useful datasets for use in a hackathon, May 2025.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Imports: 
+    tibble
