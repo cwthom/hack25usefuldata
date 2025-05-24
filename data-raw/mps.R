@@ -11,8 +11,8 @@ mps <- mps_raw |>
   clean_names(case = "snake") |> 
   select(
     country,
-    pcon_code = constituency_ons,
-    pcon_name = constituency,
+    pcon24_code = constituency_ons,
+    pcon24_name = constituency,
     name,
     title = addressable_title,
     party,
