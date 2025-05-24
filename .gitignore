@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+hack25usefuldata.Rcheck/
+hack25usefuldata*.tar.gz
+hack25usefuldata*.tgz
