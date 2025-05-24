@@ -5,7 +5,7 @@
 \alias{gias}
 \title{Get Information About Schools}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 22010 rows and 15 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 27153 rows and 16 columns.
 }
 \source{
 \url{https://get-information-schools.service.gov.uk/Downloads}
