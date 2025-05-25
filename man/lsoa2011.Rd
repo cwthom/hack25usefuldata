@@ -3,15 +3,19 @@
 \docType{data}
 \name{lsoa2011}
 \alias{lsoa2011}
-\title{Lower-Layer Super Output Areas, 2011}
+\alias{lsoa2011_centroids}
+\title{Lower-Layer Super Output Areas & Centroids, 2011}
 \format{
-An object of class \code{sf} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 34753 rows and 5 columns.
+Both are spatial datasets requiring the \code{sf} package to be loaded to
+print nicely in the console.
 }
 \source{
 \url{https://geoportal.statistics.gov.uk/search?q=BDY_LSOA\%20DEC_2011}
 }
 \usage{
 lsoa2011
+
+lsoa2011_centroids
 }
 \description{
 Boundaries and centroids for LSOAs from the 2011 census. 2011 is used, not

@@ -3,15 +3,19 @@
 \docType{data}
 \name{pcon2024}
 \alias{pcon2024}
-\title{Parliamentary Constituency Boundaries, July 2024}
+\alias{pcon2024_centroids}
+\title{Parliamentary Constituencies & Centroids, July 2024}
 \format{
-An object of class \code{sf} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 650 rows and 5 columns.
+Both are spatial datasets requiring the \code{sf} package to be loaded to
+print nicely in the console.
 }
 \source{
 \url{https://geoportal.statistics.gov.uk/search?q=BDY_ELE}
 }
 \usage{
 pcon2024
+
+pcon2024_centroids
 }
 \description{
 Boundaries and centroids for Westminster Constituencies, as at the July 2024
